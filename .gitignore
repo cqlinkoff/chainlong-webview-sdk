@@ -63,3 +63,4 @@ typings/
 # Build output
 es/
 lib/
+dist/

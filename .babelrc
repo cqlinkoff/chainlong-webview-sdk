@@ -2,6 +2,9 @@
   "presets": [
     ["@babel/preset-env"]
   ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties"
+  ],
   "env": {
     "es": {
       "presets": [
@@ -13,9 +16,12 @@
           }
         ]
       ]
+    },
+    "commonjs": {
+      "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "add-module-exports"
+      ]
     }
-  },
-  "plugins": [
-    "@babel/plugin-proposal-class-properties"
-  ]
+  }
 }
