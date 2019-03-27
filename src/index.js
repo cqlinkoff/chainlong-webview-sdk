@@ -15,4 +15,8 @@ export default class ChainLongWebview {
   close = () => {
     this.bridge.postMessage('close', {})
   }
+
+  setFullScreen = (options) => {
+    // TODO: implements
+  }
 }
