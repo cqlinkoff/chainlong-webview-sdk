@@ -1,6 +1,6 @@
 # chainlong-webview-sdk
 
-chianlong webview sdk, based on wk-bridge
+chianlong webview sdk, based on [`wk-bridge`](https://github.com/cqlinkoff/wk-bridge)
 
 ## Install
 
