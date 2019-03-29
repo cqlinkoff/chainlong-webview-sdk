@@ -6,7 +6,7 @@ import { terser } from 'rollup-plugin-terser'
 export default {
   input: 'src/index.js',
   output: {
-    name: 'chainLongWebviewSDK',
+    name: 'ChainLongWebView',
     format: 'umd',
     file: 'dist/chainlong-webview-sdk.min.js'
   },
